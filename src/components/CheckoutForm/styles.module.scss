@@ -1,0 +1,23 @@
+.checkout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+  button {
+    cursor: pointer;
+    background-color: var(--light_blue);
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+
+    &:hover {
+      transition-duration: 0.3s;
+      border: 2px solid var(--dark_gray);
+    }
+  }
+}
